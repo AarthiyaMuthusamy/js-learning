@@ -1,2 +1,49 @@
 javascript from scratch:
 
+what is js?
+
+A technology that we use to create websites
+
+website like -> amazon , youtube
+use websites -> App , websites
+
+3 technology:
+
+1. html => creates the content (button , text , img...)
+2. css => changes the appearence (look website more user interactive)
+3. js => makes it interactive(click button , give result)
+
+
+setup :
+
+web browser (chrome)
+
+
+
+giving instruction to web browser
+it follows the instruction
+
+
+1) open inspect in web browser:
+
+window function to use popup message
+alert('hello') this is an js code
+
+
+2) Math :
+
+console :  3+3 => 6
+
+
+3) work with html:
+modifying the webpage
+document.body.innerHtml = 'hello';
+
+
+Syntax:
+
+-rules that we have to follow when using a programming language
+-similar to english 
+
+
+
