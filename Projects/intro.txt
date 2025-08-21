@@ -1,1 +1,14 @@
 projects in js:
+
+lesson 1 exercises :
+basic solution
+
+
+lesson 2:
+ 
+ 2a
+ 2b
+ 2c
+ 2d
+ 2e
+ 
