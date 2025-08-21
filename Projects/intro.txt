@@ -6,9 +6,8 @@ basic solution
 
 lesson 2:
  
- 2a
- 2b
- 2c
- 2d
- 2e
+ 2a ...2n
+ 
+ farenheit = (Celcius * 9 / 5) +32
+ Celcius = (Farenheit - 32)* 5 / 9
  

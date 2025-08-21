@@ -79,3 +79,4 @@ how do avoid float values ?
 
 Math.round((2095 +799) * 0.1 ) / 100 => this is a right way to calculate 
 
+projetcs pending: lesson 2
