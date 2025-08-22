@@ -79,4 +79,44 @@ how do avoid float values ?
 
 Math.round((2095 +799) * 0.1 ) / 100 => this is a right way to calculate 
 
-projetcs pending: lesson 2
+
+_____________________________________________________
+
+lesson 3: Strings 
+
+string = text 
+sequence of characters
+
+string enclosed with single / double quotes
+3 ways:
+
+1) '...'    -> most commonly used
+2) "....."  -> inside use of single queotes
+3) `..`     -> template string simpy used with variable / string 
+
+using typeof 'hello' =>  string
+
+string + number = > converted to string 
+it automatically convert to string 
+
+
+'$' + (2095 + 799) / 100 => brackets use to avoid converting number to string 
+
+
+character:
+
+1) letter (a,b,c..)
+2) number (1,2,3..)
+3) sybmol (!,@,#..)
+4) escape character \' -> it doesn't create start or end
+5) \n newline 
+
+template string: 
+
+interpolation : directly insert values to the string 
+multi-line strings : used to be multi line string
+`Items (${1+1}): $${(2095 + 799) / 100}` : 'Items (2): $28.94'
+
+
+string projetcs pending /
+

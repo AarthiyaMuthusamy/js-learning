@@ -11,3 +11,6 @@ lesson 2:
  farenheit = (Celcius * 9 / 5) +32
  Celcius = (Farenheit - 32)* 5 / 9
  
+
+ lesson 3:
+ 
