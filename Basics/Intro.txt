@@ -161,3 +161,55 @@ ______________________________________________________________
 
 
 lesson 5: variables
+
+variable is an container to store value 
+
+👉🏻syntax rule for variable:
+
+assigning variable :
+variablekeyword variablename = value;
+let value = 3;
+
+variable name restrictions:
+can't use reserved words ❌
+can't start with number ❌
+can't use special char (except $ , _) ❌
+
+; -> end of the instruction
+after ; use another code without any problem
+
+console.log(); console.log()✅
+
+
+re-assigning value:
+variablename = value;
+value = 5;
+
+
+
+
+name declaration: 
+
+camelcase - cartQuantity
+PascalCase  - CartQuantity
+kebav-case  - (cart-quantity) use in HTML and CSS
+snake_came - used in other language
+
+
+
+3 ways to create variable:
+
+let -> can be change after sometime 
+const -> can't be changed the value later
+var - > variable mean 
+
+1) Use const for variables whose values are not expected to change throughout the program's execution.
+2) Use let for variables whose values are expected to change.
+3) Avoid using var in modern JavaScript development due to its less predictable scoping and hoisting behavior compared to let and const.
+
+
+typeof - > return the type of variable (number, string, float..)
+
+_____________________________________________________
+
+lesson 6 : Booleans and if-Statements
