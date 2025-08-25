@@ -117,6 +117,47 @@ interpolation : directly insert values to the string
 multi-line strings : used to be multi line string
 `Items (${1+1}): $${(2095 + 799) / 100}` : 'Items (2): $28.94'
 
+_____________________________________________________________
 
-string projetcs pending /
+lesson 4: HTML CSS Review, console.log
 
+HTML -> hypertext markup language
+
+using tags -> 
+
+p -> paragraph , 
+button -> button , 
+h1 -> header 
+style -> it adds css to the tags
+title -> used in tags (atrribute give an result when hover over the button / header )
+class -> its an name of an tag used to add css property( we can add same class to all the button or different button)
+script -> adding js code here 
+it runs first then the other tag js code runs
+
+automatically refresh the webpage using extensions -> Liveserver
+setup the indents to look good on code
+shift + tab -> remove indent
+tab -> indent increase
+
+Line Wrapping -> if the line is too long 
+
+
+
+Js comments:
+single -line 
+ // -> anything after this it will ignored
+1) use comments to understand the part code , what should done 
+
+2) it just remove the code temporarily , after sometime it needs
+
+multi-line:
+
+/* 
+
+*/
+
+
+______________________________________________________________
+
+
+lesson 5: variables
