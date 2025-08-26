@@ -213,3 +213,76 @@ typeof - > return the type of variable (number, string, float..)
 _____________________________________________________
 
 lesson 6 : Booleans and if-Statements
+
+Boolean another type of value 
+have two values ->  True, False
+it represents if the value id true or False
+
+Syntax rules for Booleans:
+
+true
+false
+
+comparison operators:
+
+> greater than
+< less than
+>= greater than equal to
+<= less than equal to
+=== equal to  (check the value and type) ✅
+==   equal to (check the value) ❌
+!==  not equal to ✅
+
+comparison operators are in 4th prioirty 
+
+if-Statements:
+
+-lets us to write multiple group of code
+-if condition is true then decide which code to run
+
+
+if-else Statements:
+
+if condition true code run
+else other code run
+
+if-else if -else:
+add multiple conditional Statements to run
+
+Logical operators: 
+
+use to combine boolean values
+logical operators have the 5th priority.
+
+&& , || , !
+
+Truthy and falsy values:
+
+0 - behaves like false
+1 - behaves like true
+
+
+falsy values :
+
+false ,  0 , ' ' , NaN(Not a NUmber) , undefined , null
+
+
+ternary operators :
+
+shortcut of if Statements
+i can store it an variable 
+
+guard operators:
+
+using && to create if condition 
+i can store it an variable 
+
+
+Default operator:
+
+true || value2 -> right side is ture no need to check the second value
+
+
+_____________________________________________________________
+
+lesson 7: Functions
