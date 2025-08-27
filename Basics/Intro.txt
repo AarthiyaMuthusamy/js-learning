@@ -286,3 +286,33 @@ true || value2 -> right side is ture no need to check the second value
 _____________________________________________________________
 
 lesson 7: Functions
+
+why? 
+you can run block of code to many times.
+function make us update the code easier
+
+Syntax rules for function:
+
+function function_name(){
+
+}
+
+function -> creates new function
+function_name -> we can't use  special characters , Numbers
+
+we have to use the function we need to call the function in below
+
+return -> gets a value out of function
+return calculation , variable , function
+return end the function immediately 
+
+parameter -> puts a value into a function
+
+Syntax rules for parameter:
+
+can't use special words. ex: function
+can't start with a number
+can't use special characters. except: $ , _
+
+only use the parameter inside the function
+

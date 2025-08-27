@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Functions</title>
+  
+</head> 
+  
+  <body>
+      
+  <script>
+
+   function convertKmToMiles(length){
+    return length * 1.6;
+   }
+   function convertMilesTokm(length){
+    return length / 1.6;
+   }
+
+   function convertMilesToFt(length){
+    return length * 5280;
+   }
+   function convertKmToFt(length){
+    return length * 3281;
+   }
+  
+   function convertLength(length , from , to){
+    if(to === 'km'&& from === 'miles'){
+      let miles = convertKmToMiles(length);
+      console.log(`${miles} ${to}`);
+    }else if(to === 'miles'&& from === 'km'){
+      let km = convertMilesTokm(length);
+      console.log(`${km} ${to}`);
+    }else if(to === 'km' && from === 'km'){
+      console.log(`${length} ${to}`);
+    }else if(to === 'miles' && from === 'miles'){
+      console.log(`${length} ${to}`);
+    }else if(to === 'ft' && from === 'miles'){
+      let mileFt = convertMilesToFt(length);
+      console.log(`${mileFt} ${to}`);
+    }else if(to === 'ft' && from === 'km'){
+      let KmFt = convertKmToFt(length);
+      console.log(`${KmFt} ${to}`);
+    }
+   }
+
+  //  convertLength(50, 'miles', 'km');
+  //  convertLength(32, 'km', 'miles');
+  //  convertLength(50, 'km', 'km');
+
+   
+   convertLength(5, 'miles', 'km');
+   convertLength(5, 'miles', 'ft');
+   convertLength(5, 'km', 'ft');
+
+  </script>
+  
+  </body>
+</html>
+
