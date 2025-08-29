@@ -316,3 +316,112 @@ can't use special characters. except: $ , _
 
 only use the parameter inside the function
 
+_____________________________________________________________
+
+lesson 8: Objects
+
+group of values 
+
+in object the values are exist, it  updates the old value 
+else it will add the new value
+
+Syntax rules for object:
+
+using property value pair , separated with comma
+have property and the values of the property
+
+
+delete:
+using delete keyword to del the value in object
+
+indise the value of object also a object 
+using typeof (object_name)
+
+obj -> more organised for values
+       let us group multiple values together
+       let us use multiple values together
+       inside an object , we can save any type of value
+
+how many ways to access the object value:
+
+1) dot notation - by Default use dot notation
+2) bracket notation - use these don't work with an dot notation
+       
+
+use nested object : object inside object 
+use function to an object create indise : this is called method
+
+
+
+example of method: 
+
+Math.random()
+console.log() 
+throughout the program we use with object to function
+
+built-in objects:
+
+provided by the js,
+JSon  - javascipt object notation
+localstorage 
+
+json: 
+helps us work with json 
+a Syntax 
+similar to js object 
+but has less features 
+all data using double quotes , not support single quotes 
+not support function 
+it have universal code send data to computers 
+
+built -in json object :
+
+js to json:
+JSON.stringify(object_name)
+
+json to js :
+JSON.parse()
+
+localstorage : 
+ save the values more permantly
+ variable are temporary 
+ if we refresh / close the page ,
+ all the variable are deleted
+
+
+Auto-boxing:
+
+string treat as special object to wrap as object.
+work eith number and other values
+
+this not work with null and undefined
+
+object reference:
+
+object store into on memory -> it reference the object variable 
+ex:
+icon shortcut to point to the original file path
+
+copy by reference:
+
+have same value but different reference
+
+behavior:
+
+it still changing the value , it have const variable.
+both are pointing same value so it we change anyone it will change al.
+if we create same objcet to another name , try to compare it gives false.
+compare two object reference the sake value ,it gives true.
+
+destructing :
+
+helup us to get out a value from the object , using same name to print the variable
+
+simple to use , reduce the variable creation issue
+
+shorthand property and shorthand method:
+ instead of using property and value pair are same use name once , don't put into an double name.
+ dont't refernece to the method property -> just create function with the variable
+
+
+lesson 9: DOM 
