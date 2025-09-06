@@ -424,4 +424,55 @@ shorthand property and shorthand method:
  dont't refernece to the method property -> just create function with the variable
 
 
-lesson 9: DOM 
+lesson 9: DOM (Document Object Model)
+
+it's also an built-in object
+document is built-in object 
+dot notation to access the property
+
+document.body -> changing the body 
+document.title -> changing the titile of the document
+
+Syntax rule:
+
+it have property , and have the value
+special thing about dom is access with the webpage
+also has method
+
+document.body -> it convert the whole body tag to js object 
+
+querySelector() -> get any element from the page and put in inside js
+it access the part of the webpage and put it an js 
+
+
+have multiple same parts -> we can acces it with .class_name 
+
+DOM combines JS and HTML together.
+
+innerText -> wrap the text inside the button or 
+
+whenever we get input from input tag -> its an string value so check before going to proceed
+convert string to number -> using Number() built-in function
+also String() function convert str to number
+
+js automatically convert string with  - ,* ,/ operations =>  type convertion
+
+
+
+css have another property onkeydown
+clicks , keydowns => events
+onclick , onkeydown => event listeners
+
+event listeners:
+
+onclick = click
+onkeydown = key press
+onscroll = scrolling 
+onmouseenter = hovering over
+onmouseleave = stop hovering over 
+
+
+_____________________________________________________________
+
+
+lesson 10 : HTML , CSS and JavaScript together

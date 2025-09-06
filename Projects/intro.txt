@@ -13,4 +13,10 @@ lesson 2:
  
 
  lesson 3:
+
+
+ lesson 9:
+
+ onkeydown -> need and event.key 
+ onkeyup -> no need just display the messaga we enter
  

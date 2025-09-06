@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>DOM Exercises</title>
+  
+</head> 
+  
+  <body>
+    <p>
+    <button class="head-button" onclick="
+      const buttonElement = document.querySelector('.head-button').innerText;
+      updateresultElement(buttonElement);
+      ">head</button>
+    <button class="tail-button" onclick="
+    const buttonElement1 = document.querySelector('.tail-button').innerText;
+      updateresultElement(buttonElement1);
+    ">tail</button>
+      </p>
+      <p class="result"></p>
+  <script>
+   
+    function updateresultElement(buttonElement){
+       document.querySelector('.result').innerHTML = `you chose: ${buttonElement}`;
+    }
+    
+
+  </script>
+  
+  </body>
+</html>
+

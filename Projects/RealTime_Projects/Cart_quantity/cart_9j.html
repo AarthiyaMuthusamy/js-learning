@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Cart Quantity</title>
+  
+</head> 
+  
+  <body>
+   
+    <button class="Show-button" onclick="
+       showCartQuantity();
+    ">Show Quantity</button>
+
+    <button onclick="
+    updateCartQuantity(1);
+    ">Add to cart</button>
+
+    <button onclick="
+    updateCartQuantity(2);
+    ">+2</button>
+
+    <button onclick="
+    updateCartQuantity(3);
+    ">+3</button>
+   
+   <!--5h-->
+    <button onclick="
+    updateCartQuantity(4);
+    ">+4</button>
+
+    <button onclick="
+    updateCartQuantity(5);
+    ">+5</button>
+
+   <!--5i, 5k-->
+    <button onclick="
+    updateCartQuantity(-1);
+    ">Remove from cart</button>
+
+    <!--5j, 5k-->
+    <button onclick="
+    updateCartQuantity(-2);
+    ">-2</button>
+
+   <button onclick="
+    updateCartQuantity(-3);
+    ">-3</button>
+
+    <button onclick="
+    CartQuantity = 0;
+    console.log('Cart was Reset'); 
+    localStorage.removeItem('CartQuantity');
+    showCartQuantity();
+    ">Reset Cart</button>
+
+
+  <p class="quantity-result"></p>
+
+  <script>
+    let CartQuantity = JSON.parse(localStorage.getItem('CartQuantity')) || 0;
+    let maximumQuantity = 10;
+
+
+    function updateCartQuantity(Quantity){
+    if(Quantity === 1){
+    if(CartQuantity + Quantity > maximumQuantity){
+      alert('The cart is full');
+      return;
+    }
+      CartQuantity++;
+      showCartQuantity();
+    
+    }else if(Quantity === 2){
+      if(CartQuantity + Quantity > maximumQuantity){
+        alert('The cart is full');
+        return;
+      }
+        CartQuantity +=2;
+        showCartQuantity();
+      
+    }else if(Quantity === 3){
+        if(CartQuantity + Quantity > maximumQuantity){
+          alert('The cart is full');
+          return;
+        }
+          CartQuantity +=3;
+          showCartQuantity();
+           
+    }else if(Quantity === 4){
+        if(CartQuantity + Quantity > maximumQuantity){
+          alert('The cart is full');
+          return;
+        }
+          CartQuantity +=4;
+          showCartQuantity();
+          
+    }else if(Quantity === 5){
+      if(CartQuantity + Quantity >  maximumQuantity){
+        alert('The cart is full');
+        return;
+      }
+        CartQuantity +=5;
+        showCartQuantity();
+
+    }else if(Quantity === -1){
+      if(CartQuantity + Quantity < 0){
+        alert('Not enough items');
+        return;
+      }
+        CartQuantity --;
+        showCartQuantity();
+      
+    }else if(Quantity === -2){
+      if(CartQuantity + Quantity < 0){
+        alert('Not enough items');
+        return;
+      }
+        CartQuantity -= 2;
+        showCartQuantity();
+      
+    }else if(Quantity === -3){
+      if(CartQuantity + Quantity < 0){
+      alert('Not enough items');
+      return;
+      }
+        CartQuantity -= 3;
+        showCartQuantity();
+      
+    }
+
+    localStorage.setItem('CartQuantity',JSON.stringify(CartQuantity));
+    showCartQuantity();
+    }
+
+
+    function showCartQuantity(){
+       document.querySelector('.quantity-result').innerHTML = `Cart Quantity : ${CartQuantity}`;
+    }
+
+  </script>
+  </body>
+</html>
+

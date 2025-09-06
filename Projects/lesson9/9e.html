@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>DOM Exercises</title>
+  
+</head> 
+  
+  <body>
+   <p>
+    <input placeholder="Enter your name" class="input" onkeydown="
+      updateresultElement();
+      " >
+    <button class="text-button" onclick="
+    displayText();
+    ">Submit</button>
+   </p>
+   <p class="result"></p>
+
+  <script>
+   
+    function updateresultElement(){
+      if(event.key === 'Enter'){
+       displayText();
+      }
+    }
+
+    function displayText(){
+      const inputElement = document.querySelector('.input');
+      let Name = inputElement.value;
+
+      document.querySelector('.result').innerHTML = `Your name is: ${Name}`;
+    }
+    
+
+  </script>
+  
+  </body>
+</html>
+
