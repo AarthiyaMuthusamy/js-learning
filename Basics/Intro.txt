@@ -476,3 +476,46 @@ _____________________________________________________________
 
 
 lesson 10 : HTML , CSS and JavaScript together
+
+
+css -> changes the appearence of webpage
+
+element have multiple class name with spaces
+
+. -> class means
+
+cursor:pointer; -> turns to the hand pointer on particular space
+
+.classList = gives us control of the class attribute
+add the class
+class have different atrribute
+
+method:
+
+.add()
+.remove()
+
+css color : rgp (red green blue)
+ range = > 0 - 255 
+0 => less color , darker 
+255 => more color , lighter
+
+
+padding vs margin 
+
+padding : space on the inside 
+margin : space on the outside
+
+img -> tag no need of an its and void
+src -> source which img to load 
+
+moved the js and css to separate files for more readable
+
+in js -> script tag use 
+in css -> use link tag and rel , href attribute 
+
+
+_____________________________________________________________
+
+
+lesson 11 :

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>HTML , CSS and JS together</title>
+  <style>
+    body {
+     font-family: Arial, Helvetica, sans-serif;
+    }
+
+
+    .cost-input{
+      font-size: 15px;
+      /* padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 10px;
+      padding-right: 10px; 
+      use these different lines used on one line*/
+
+      padding: 10px;
+    }
+
+    .calculate-button{
+      border: none;
+      background-color: green;
+      color: white;
+      font-size: 15px;
+      padding: 12px 15px;  /* two values one for top and bottom another for left right*/
+      cursor: pointer;
+    }
+
+    .Error-message{
+      color: red;
+    }
+
+    
+  </style>
+</head> 
+  
+  <body>
+    
+   
+    <p>Amazon Shipping calculator</p>
+    <p>Orders under $40  = +$10 shipping.</p>
+    <p>Orders over $40  = FREE shipping.</p>
+    <input placeholder="Cost of order" class="js-input cost-input" onkeydown="
+     handleCostKeydown(event);
+    ">
+    <button onclick="
+    calculateTotal();
+    " class="calculate-button">Calculate</button>
+    <p class="shipping-cost"></p>
+    <p class="less-cost Error-message"></p>
+
+      
+  <script>
+   
+   
+
+
+    function handleCostKeydown(event){
+      
+    if(event.key === 'Enter'){
+      calculateTotal();
+    }
+    }
+
+    function calculateTotal(){
+      const inputElement = document.querySelector('.js-input');
+      let cost = Number(inputElement.value); 
+
+      document.querySelector('.shipping-cost').innerHTML = '';
+      document.querySelector('.less-cost').innerHTML = '';
+
+      if(cost < 0){
+        document.querySelector('.less-cost').innerHTML = `Error : cost cannot be less than $0`;
+
+        return;
+      }
+
+
+
+
+      if(cost < 40){
+        cost = cost +  10;
+      }
+      
+      document.querySelector('.shipping-cost').innerHTML = `$${cost}`;
+      
+    }
+
+   
+
+  </script>
+  
+  </body>
+</html>
+
