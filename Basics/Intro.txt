@@ -518,4 +518,37 @@ in css -> use link tag and rel , href attribute
 _____________________________________________________________
 
 
-lesson 11 :
+lesson 11 : Arrays and loops
+
+
+another type of value
+represents a list of value
+array is an object
+
+
+Syntax rule for Arrays:
+
+create array using [] 
+get the value using index (0-indexed array)
+can change the array value using index position
+we can add multiple value in one array.
+
+array is an object so u can store it an variable using dot notation to use default method
+
+length -> return length of an array
+push -> insert end of an array
+splice -> get the value from start to end index (takes two parameter)
+
+
+loops:
+
+run the code over and over
+
+loop variable , loop condition , loop increment
+
+loop create scope {} between the braces it won't access outside
+
+
+
+
+

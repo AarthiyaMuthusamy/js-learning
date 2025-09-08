@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Array and loops</title>
+  
+</head> 
+  
+  <body>
+      
+  <script>
+
+    function addOne(array, number){
+    let total = [];
+
+    for(let i =0; i< array.length; i++){
+          let num = array[i] + number;
+          total.push(num);
+      }
+
+    console.log(total);
+   }
+
+   addOne([1,2,3] , 2);
+   addOne([1,2,3] , 3);
+   addOne([-2,-1,0,99], 2)
+    
+
+
+  </script>
+  
+  </body>
+</html>

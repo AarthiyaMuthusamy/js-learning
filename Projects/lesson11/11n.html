@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Array and loops</title>
+  
+</head> 
+  
+  <body>
+      
+  <script>
+  function countWords(nums){
+    const result = {};
+
+    for(let i =0;i<nums.length;i++){
+      const word =  nums[i];
+
+      if(!result[word]){
+        result[word] = 1;
+      }
+      else{
+        result[word]++;
+      }
+    }
+
+    return result;
+  }
+
+
+console.log(countWords(['apple','grape','apple','apple']));
+
+  </script>
+  
+  </body>
+</html>
