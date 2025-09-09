@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Array and loops</title>
+  
+</head> 
+  
+  <body>
+      
+  <script>
+  
+function removeEgg(nums){
+    let result = [];
+    
+    for(let i = 0; i < nums.length; i++){
+
+      if(nums[i] === 'egg'){
+        
+        continue;
+      }
+      result.push(nums[i]);
+    }
+
+    console.log(result);
+
+}
+
+
+removeEgg(['egg','apple','egg','egg','ham']);
+
+
+
+  </script>
+  
+  </body>
+</html>

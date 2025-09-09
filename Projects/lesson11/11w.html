@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Array and loops</title>
+  
+</head> 
+  
+  <body>
+      
+  <script>
+  
+
+
+
+function findIndex(nums,word){
+    
+    for(let i = 0; i < nums.length; i++){
+      if(word === nums[i]){
+        return i;
+        break;
+      }
+    }
+
+    return -1;
+
+}
+
+
+function unique(nums){
+  let uniqueword = [];
+
+
+  for(let i =0;i<nums.length;i++){
+    const word = nums[i];
+    if(findIndex(uniqueword,word) === -1){
+      uniqueword.push(word);
+    }
+
+  }
+
+   return uniqueword;
+}
+
+
+console.log(unique(['green','red','blue','red']));
+console.log(unique(['red', 'green', 'green', 'red']));
+
+  </script>
+  
+  </body>
+</html>

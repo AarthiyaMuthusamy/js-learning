@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Array and loops</title>
+  
+</head> 
+  
+  <body>
+      
+  <script>
+  
+function removeEgg(nums){
+
+  let copy = nums.slice();
+  let reversedcopy = copy.reverse();
+
+    let result = [];
+    let removed = 0;
+    
+    
+   
+    for(let i = 0; i < reversedcopy.length; i++){
+      if(reversedcopy[i] === 'egg' && removed < 2){
+        removed++;
+        continue;
+      }
+      result.push(reversedcopy[i]);
+    }
+    return result.reverse();
+
+}
+
+
+foods = ['egg','apple','egg','egg','ham'];
+
+console.log(foods);
+console.log(removeEgg(foods));
+
+
+
+ 
+
+
+
+
+
+  </script>
+  
+  </body>
+</html>

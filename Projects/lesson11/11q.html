@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Array and loops</title>
+  
+</head> 
+  
+  <body>
+      
+  <script>
+  
+function findIndex(nums, word){
+    let index = -1;
+    for(let i = 0; i < nums.length; i++){
+      if(word === nums[i]){
+        index = i;
+        break;
+      }
+    }
+
+    console.log(index);
+
+}
+
+
+findIndex(['green','red','blue','red'], 'red');
+
+  </script>
+  
+  </body>
+</html>

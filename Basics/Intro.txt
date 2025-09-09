@@ -548,6 +548,56 @@ loop variable , loop condition , loop increment
 
 loop create scope {} between the braces it won't access outside
 
+_____________________________________________________________
+
+lesson 11 - part2: Arrays and loops
+
+
+Arrays are reference both are pointing same array if anyone is changed both array get updated
+
+
+shortcut of destructing :
+
+const [first,second,third] = [1,2,3]
+first -> represent [0]
+second -> represent [1]
+third -> represent [2]
+
+
+loops:
+
+break -> break the loop and return the value , exist the loop early
+continue -> skip the current loop and continue with rest of them , skip one iteration
+
+
+function with loop:
+
+we can call multiple times 
+return the output
+return is another way of breaking loop
+
+
+_______________________________________________________________
+
+
+
+lesson 12: Advanced Functions
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
